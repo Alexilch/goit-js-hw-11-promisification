@@ -1,0 +1,27 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './example';
+
+
+
+.Task_block{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{ 
+    font-size: large;
+    margin: 15px;
+    color: orange;
+
+    &:hover{
+    color:darkorange;
+    font-weight: 600;
+    }
+}
